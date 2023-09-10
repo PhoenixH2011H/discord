@@ -1,0 +1,36 @@
+/* Import Tailwind 3.3.3 in JS with   
+<script src="https://cdn.tailwindcss.com/3.3.3"></script>
+   for example */
+
+/* Lanyard Setup */
+/* Global */
+html {
+  background-color: #1e1b4b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233730a3' fill-opacity='0.24'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+#start {
+  margin-top: -100px;
+}
+#nickname:first-letter {
+  text-transform: uppercase !important;
+}
+
+/* Status Colors ! 
+https://tailwindcss.com/docs/customizing-colors */
+.status.online {
+  background-color: #4338ca; /* Indigo-700 */
+}
+.status.dnd {
+  background-color: #9d174d; /* Pink-800 */
+}
+.status.idle {
+  background-color: orange; /* Orange-700 */
+}
+.status.offline {
+  background-color: #c7d2fe; /* Indigo-200 */
+  color: #1e1b4b; /* Indigo-950 */
+}
+
+.force-text-color-on-preview {
+  color: #e0e7ff !important; /* Indigo-200 */
+}
