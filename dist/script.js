@@ -1,6 +1,6 @@
 const Lanyard = {
   URL: {
-    API: "https://api.lanyard.rest/v1/users/",
+    API: "https://lanyard.cnrad.dev/api/",
     AVATAR: "https://cdn.discordapp.com/avatars/",
     AVATAR_EXT: ".jpg",
     AVATAR_SIZE: "256"
