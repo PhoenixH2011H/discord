@@ -1,5 +1,1 @@
-# Simple Discord Profile Page with Lanyard
-
-A Pen created on CodePen.io. Original URL: [https://codepen.io/alyxe/pen/gOQepva](https://codepen.io/alyxe/pen/gOQepva).
-
-Example of use of the Lanyard API (retrieves data from your Discord profile, such as avatar, etc.) for a small page that is always up to date and linked to Discord in pure JavaScript/HTML.
+[![Discord Presence](https://lanyard.cnrad.dev/api/1055944263629819954)](https://discord.com/users/1055944263629819954)
