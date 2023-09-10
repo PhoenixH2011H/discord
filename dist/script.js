@@ -5,7 +5,7 @@ const Lanyard = {
     AVATAR_EXT: ".jpg",
     AVATAR_SIZE: "256"
   },
-  ID: "1114315217640362107",
+  ID: "1055944263629819954",
   IDs: {
     NICKNAME: "nickname",
     STATUS: "status",
